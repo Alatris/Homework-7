@@ -45,6 +45,13 @@ body {
     border: 1px solid #ccc;
 }
 
+.sticky-container {
+    position: sticky;
+    top: 0;
+    background-color: #87ceeb;
+    padding: 10px;
+}
+
 .sticky {
     position: sticky;
     top: 0;
@@ -81,4 +88,33 @@ body {
     width: 1200px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.static {
+    background-color: #f0e68c;
+    padding: 10px;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #add8e6;
+    padding: 10px;
+}
+
+.absolute-container {
+    position: relative;
+    height: 200px;
+    background-color: #ffcccb;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #90ee90;
+    padding: 10px;
 }
